@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "1027422762045",
+    "project_id": "bmi-calculator-6b86e",
+    "storage_bucket": "bmi-calculator-6b86e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027422762045:android:1399c4bb9fd19b4631a654",
+        "android_client_info": {
+          "package_name": "com.antonio.pedro99.bmi_calculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027422762045-ak71o02hclpv2rn6s24v906123hgdlfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_MzgzDTyrQ_GfmdGBDXqB874vfYIXM5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027422762045-ak71o02hclpv2rn6s24v906123hgdlfl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1027422762045-eukhhc7eg5a3pp0m7p8t2bvdkao68mk4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bmiCalculator"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027422762045:android:af8ad1ade8ac59b731a654",
+        "android_client_info": {
+          "package_name": "com.example.omr_scanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027422762045-ak71o02hclpv2rn6s24v906123hgdlfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_MzgzDTyrQ_GfmdGBDXqB874vfYIXM5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027422762045-ak71o02hclpv2rn6s24v906123hgdlfl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1027422762045-eukhhc7eg5a3pp0m7p8t2bvdkao68mk4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bmiCalculator"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
