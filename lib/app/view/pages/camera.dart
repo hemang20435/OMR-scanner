@@ -11,7 +11,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 class CameraPage extends StatefulWidget {
   const CameraPage({super.key, required this.camera});
+
   final CameraDescription camera;
+
   @override
   State<CameraPage> createState() => _CameraPageState();
 }
@@ -97,20 +99,33 @@ class _CameraPageState extends State<CameraPage> {
                       child: InkResponse(
                         onTap: () => {},
                         child: Hero(
-                          tag: "preview",
-                          child: ClipRRect(
+                            tag: "preview",
+                            child: ClipRRect(
                               borderRadius: const BorderRadius.only(
                                   bottomLeft: Radius.circular(24),
                                   bottomRight: Radius.circular(24)),
-                              child: CameraPreview(_controller, child: const SizedBox(),)),
-                        ),
+                              child: CameraPreview(_controller,
+                                  child: UnconstrainedBox(
+                                    child: Container(
+                                      width: size.width * .9,
+                                      height: size.height * .7,
+                                      decoration: ShapeDecoration(
+                                        shape: RoundedRectangleBorder(
+                                            side: const BorderSide(
+                                                width: 4, color: Colors.red),
+                                            borderRadius:
+                                            BorderRadius.circular(24)),
+                                      ),
+                                    ),
+                                  )),
+                            )),
                       ),
                     );
                   },
                 );
               } else {
-                 return const SizedBox();
-              } 
+                return const SizedBox();
+              }
             },
           );
         },
